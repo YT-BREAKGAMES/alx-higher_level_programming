@@ -1,5 +1,8 @@
-
-
+-- list all genres not linked to the show Dexter
+   -- Each record should display:
+      -- tv_genres.name
+   -- Results must be sorted in ascending order by the genre name
+   -- The database name will be passed as an argument of the mysql command
 
 SELECT name FROM tv_genres
 WHERE tv_genres.id NOT IN (
